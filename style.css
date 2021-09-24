@@ -1,0 +1,125 @@
+body {
+
+	background-color: black;
+
+}
+
+.form-div {
+
+	text-align: center;
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	z-index: 15;
+	top: 50%;
+	left: 50%;
+	margin: -100px 0 0 -150px;
+	background: #333;
+	border-radius: 10px;
+
+}
+
+h1 {
+
+	color:  white;
+	text-align: center;
+	font-weight: bold;
+}
+
+h3 {
+
+	color: white;
+
+}
+
+.input-field {
+
+	margin-top: 20px;
+	border-style: none;
+	border: none;
+	background-color: #333;
+	margin-right: auto;
+	margin-left: auto;
+	width: 300;
+	height: 30px;
+	color: white;
+	font-size: 14pt;
+	border-bottom: solid white;
+	outline: none;
+
+}
+
+.input-field:focus {
+
+	border-bottom: solid #6441a5;
+
+}
+
+a {
+
+	text-decoration: none;
+
+}
+
+.redirect-button {
+
+	color: #6441a5;
+	text-decoration: none;
+}
+
+.redirect-button:hover {
+
+	text-decoration: none;
+	transform: scale(1.2);
+    transition: 1000ms;
+
+}
+
+.action-button {
+
+	width:  100px;
+	height: 50px;
+	background: #6641a5;
+	border-radius: 20px;
+	border: none;
+	margin-top: 10px;
+	color: white;
+	font-size: 14pt;
+	font-weight: bold;
+
+}
+
+.action-button:hover {
+
+    transform: scale(1.2);
+    transition: 1000ms;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #6441a5;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: black;
+}
